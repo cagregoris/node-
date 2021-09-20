@@ -1,0 +1,7 @@
+- node is a runtime environment for executing Javascript code
+- Asynchronous (aka non-blocking, handles lots of requests)
+  - Continuously monitors the event queue
+- Typically you wouldn't use node for the backend server because as you add more routes, it gets more complex
+  - Instead, we use a famework called express
+  - Express gives the application a clear structure to handle various routes
+  - Express is built on top of http module in node
